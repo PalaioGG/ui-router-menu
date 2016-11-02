@@ -1,1 +1,0 @@
-build-css: node-sass --include-path scss ../assets/scss/index.scss   ../assets/css/index.css
