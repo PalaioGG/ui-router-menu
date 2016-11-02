@@ -1,0 +1,28 @@
+body {
+  padding: 25px;
+  background-color: #bada55; }
+
+.menu-content {
+  background-color: #edf5d3;
+  padding-bottom: 50px; }
+
+.category-title {
+  margin-top: 20px;
+  text-indent: 30px;
+  text-decoration: underline; }
+
+.items-list li {
+  margin-bottom: 5px;
+  position: relative; }
+
+.items-name, .list-indicator, .item-price {
+  display: inline-block; }
+
+.list-indicator {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-bottom: 1px dotted black; }
+
+.item-price {
+  float: right; }

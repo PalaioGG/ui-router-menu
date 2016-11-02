@@ -1,0 +1,39 @@
+<DOCTYPE!>
+<html ng-app='myApp'>
+	<head>
+		<!-- ANGULARJS -->
+		<script src="node_modules/angular/angular.js"></script>
+		<!-- ANGULAR-UI-ROUTER -->
+		<script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+		<!-- STATES -->
+		<script src="index.js"></script>
+		<!-- CONTROLLERS -->
+		<script src="views/main/main.controller.js"></script>
+		<script src="views/foods/foods.controller.js"></script>
+		<script src="views/sweets/sweets.controller.js"></script>
+		<script src="views/beverages/beverages.controller.js"></script>
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"></link>
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/index.css"></link>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav">
+					<li><a ui-sref="main">Main</a></li>
+					<li><a ui-sref="foods">Foods</a></li>
+					<li><a ui-sref="sweets">Sweets</a></li>
+					<li><a ui-sref="beverages">Beverages</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		</nav>
+		
+		I am the index.html and below me is the ui-view
+		<div ui-view></div>
+				
+	</body>
+</html>

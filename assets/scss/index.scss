@@ -1,0 +1,39 @@
+$badass: #bada55;
+
+body { 
+  padding: 25px; 
+  background-color: $badass; 
+}
+
+.menu-content {
+	background-color: lighten($badass, 30%);
+	padding-bottom: 50px;
+}
+
+.category-title {
+	margin-top: 20px;
+	text-indent: 30px;
+	text-decoration: underline;
+}
+
+.items-list li {
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.items-name {
+	display: inline-block;
+}
+
+.list-indicator {
+	@extend .items-name;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-bottom: 1px dotted black;
+}
+
+.item-price {
+	@extend .items-name;
+	float: right;
+}
