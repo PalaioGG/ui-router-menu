@@ -1,0 +1,94 @@
+[
+	{
+		"category" : "Alcohol",
+		"content": [
+			{ 
+				"name": "Gin", 
+				"price": "6.50" 
+			},
+			{ 
+				"name": "Whiskey", 
+				"price": "6.00" 
+			},
+			{
+				"name": "Tequila",
+				"price": "6.00"
+			},
+			{
+				"name": "Sabuka",
+				"price": "6.00"
+			}
+		]
+	},
+	{
+		"category" : "Coffees",
+		"content": [
+			{ 
+				"name": "Espresso", 
+				"price": "3.00" 
+			},
+			{ 
+				"name": "Capuchino", 
+				"price": "3.00" 
+			},
+			{
+				"name": "Freddp Espresso",
+				"price": "3.00"
+			},
+			{
+				"name": "Freddo Capuchino",
+				"price": "3.00"
+			},
+			{
+				"name": "Greek",
+				"price": "2.50"
+			},
+			{
+				"name": "Irish",
+				"price": "4.00"
+			}
+		]
+	},
+	{
+		"category" : "Refreshments",
+		"content": [
+			{ 
+				"name": "Fanta", 
+				"price": "2.50" 
+			},
+			{ 
+				"name": "Coke", 
+				"price": "2.50" 
+			},
+			{
+				"name": "Sprite",
+				"price": "2.50"
+			},
+			{
+				"name": "Natural Juice(orange, apples, carot)",
+				"price": "4.50"
+			}
+		]
+	},
+	{
+		"category" : "Tea",
+		"content": [
+			{ 
+				"name": "Mountain tea", 
+				"price": "2.50" 
+			},
+			{ 
+				"name": "Lipton", 
+				"price": "2.50" 
+			},
+			{
+				"name": "Black",
+				"price": "2.50"
+			},
+			{
+				"name": "Green",
+				"price": "2.50"
+			}
+		]
+	}
+]

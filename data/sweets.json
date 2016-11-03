@@ -1,0 +1,48 @@
+[
+	{
+		"category" : "Koutaliou",
+		"content": [
+			{ 
+				"name": "Kerasi", 
+				"price": "3.00" 
+			},
+			{ 
+				"name": "Karydi", 
+				"price": "3.50" 
+			},
+			{
+				"name": "Neratzi",
+				"price": "3.50"
+			},
+			{
+				"name": "Portokali",
+				"price": "3.50"
+			}
+		]
+	},
+	{
+		"category" : "Pastes",
+		"content": [
+			{ 
+				"name": "Flora", 
+				"price": "4.00" 
+			},
+			{ 
+				"name": "Chocolate orgy", 
+				"price": "4.00" 
+			},
+			{
+				"name": "Cheesecake",
+				"price": "4.00"
+			},
+			{
+				"name": "Caramele",
+				"price": "4.00"
+			},
+			{
+				"name": "White choco",
+				"price": "4.00"
+			}
+		]
+	}
+]

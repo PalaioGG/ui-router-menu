@@ -17,7 +17,7 @@ angular.module('myApp', ['ui.router'])
 						return $http({
 							method: 'GET',
 							url: 'data/food.json'
-						}). then (function(data) {
+						}).then (function(data) {
 							return data.data;
 						})
 					}
@@ -26,11 +26,31 @@ angular.module('myApp', ['ui.router'])
 			.state('sweets', {
 				url: '/sweets',
 				templateUrl: 'views/sweets/sweets.html',
-				controller: 'sweetsCtrl'
+				controller: 'sweetsCtrl',
+				resolve: {
+					sweets_data: function ($http) {
+						return $http({
+							method: 'GET',
+							url: 'data/sweets.json'
+						}).then (function(data) {
+							return data.data;
+						})
+					}
+				}
 			})
 			.state('beverages', {
 				url: '/beverages',
 				templateUrl: 'views/beverages/beverages.html',
-				controller: 'beveragesCtrl'
+				controller: 'beveragesCtrl',
+				resolve: {
+					beverages_data: function ($http) {
+						return $http({
+							method: 'GET',
+							url: 'data/beverages.json'
+						}).then (function(data) {
+							return data.data;
+						})
+					}
+				}
 			})
 	});
